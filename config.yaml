@@ -1,0 +1,25 @@
+--- # launch configuration
+
+# directory to store browser session data
+# like cookies and local storage
+userDataDir: /tmp/
+# Some temporary directory is preferred because 
+# we don't want to store the session data
+
+# folder to keep your downloads
+downloadsPath: /home/abhigyan/Desktop/
+
+# browser launch configuration
+launchOptions:
+  
+  # absolute path to your chrome executable
+  executablePath: /usr/bin/google-chrome
+
+  # whether to automatically download all attachments
+  acceptDownloads: true
+
+  # whether to run the browser in headless mode
+  headless: true
+
+  # user locale, affects date formatting rules
+  locale: en-GB

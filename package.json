@@ -1,0 +1,24 @@
+{
+  "name": "pw-download-wrapper",
+  "version": "0.0.1",
+  "description": "Automate your downloads using the Playwright API, without worrying about promises!",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "news",
+    "newspaper",
+    "grab",
+    "downloader"
+  ],
+  "author": "mountAP",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "js-yaml": "^3.14.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.3.0"
+  }
+}
