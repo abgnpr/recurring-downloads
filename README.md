@@ -27,7 +27,7 @@ Note: You can automate step 2 as well using a tool like cron or a one-shot syste
 - Linux/mac-OS
 
   ```bash
-  git clone https://github.com/mountAP/recurring-downloads
+  git clone https://github.com/mountAP/recurring-downloads.git
   cd daily-downloads
   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install
   ```
@@ -35,7 +35,7 @@ Note: You can automate step 2 as well using a tool like cron or a one-shot syste
 - Windows
 
   ```cmd
-  git clone https://github.com/mountAP/recurring-downloads
+  git clone https://github.com/mountAP/recurring-downloads.git
   cd daily-downloads
   set PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
   npm install
