@@ -1,22 +1,5 @@
 // Items to download
 downloadItems = [
-  /*
-  {
-    name: "Example Item",
-    url:"https://www.example.com",
-    steps = async function() {
-      
-      await navigationStep1;
-      await navigationStep2;
-      ...
-      await downloadTrigger;
-      
-      see https://playwright.dev/#?path=docs/api.md
-      to learn about the steps u can use here 
-    }
-  },
-  */
-
   {
     name: "Indian Express",
     url: "https://dailyepaper.in/indian-express-epaper/",
