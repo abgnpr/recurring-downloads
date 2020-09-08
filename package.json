@@ -1,5 +1,5 @@
 {
-  "name": "daily-downloads",
+  "name": "recurring-downloads",
   "version": "0.0.1",
   "description": "Automate your downloads using the Playwright API, without worrying about promises!",
   "main": "main.js",
