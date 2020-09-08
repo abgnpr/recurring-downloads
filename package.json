@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mountAP/recurring-downloads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mountAP/recurring-downloads/issues"
+  },
+  "homepage": "https://github.com/mountAP/recurring-downloads#readme"
 }
