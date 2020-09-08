@@ -1,10 +1,10 @@
 {
-  "name": "pw-download-wrapper",
+  "name": "daily-downloads",
   "version": "0.0.1",
   "description": "Automate your downloads using the Playwright API, without worrying about promises!",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "download": "node main.js"
   },
   "keywords": [
     "news",
