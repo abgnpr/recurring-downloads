@@ -3,8 +3,8 @@
 # directory to store browser session data
 # like cookies and local storage
 userDataDir: /tmp/
-# Some temporary directory is preferred because 
-# we don't want to store the session data
+# Some temporary directory is preferred as
+# we don't want to store session data
 
 # folder to keep your downloads
 downloadsPath: /home/abhigyan/Desktop/
@@ -15,7 +15,7 @@ launchOptions:
   # absolute path to your chrome executable
   executablePath: /usr/bin/google-chrome
 
-  # whether to automatically download all attachments
+  # whether to enable downloads from websites
   acceptDownloads: true
 
   # whether to run the browser in headless mode
