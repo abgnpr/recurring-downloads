@@ -112,7 +112,13 @@ You can specify multiple download items in `downloadItems.js`.
 
 ### Starting downloads
 
-`npm start` or `node main.js`
+```bash
+npm run download
+```
+
+```bash
+node main.js
+```
 
 This command performs the steps and begins downloads.
 
