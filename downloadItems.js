@@ -4,7 +4,7 @@ downloadItems = [
     name: "Indian Express",
     url: "https://dailyepaper.in/indian-express-epaper/",
     steps: async function (page) {
-      const handle = await page.$('#post-810 > div > p:nth-child(22) > span > a');
+      const handle = await page.$('#post-810 > div.entry-content.mh-clearfix > p:nth-child(21) > a');
       const link = await handle.getAttribute("href");
       await page.goto(link);
       await page.evaluate(() => saveDoc());
