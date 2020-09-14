@@ -1,3 +1,4 @@
+const fs = require('fs')
 const chalk = require("chalk");
 
 /** Returns today's day & date in dash separated format e.g Mon-Aug-31-2020 */
@@ -21,6 +22,11 @@ module.exports = async function download(
   downloadsPath,
   showErrorLogs = false
 ) {
+  let downloadFile = `${downloadsPath}/${downloadItem.name.split(" ").join("")}_${dateStamp()}`;
+  
+  if (fs.existsSync(downloadFile))
+    return chalk.blue("\nAlready exists: ") + downloadItem.name;
+
   console.log(chalk.yellow("\nDownloading: ") + downloadItem.name);
   try {
     await page.goto(downloadItem.url);
@@ -29,9 +35,7 @@ module.exports = async function download(
       downloadItem.steps(page), // `undefined` if all good
     ]);
     await download.path();
-    await download.saveAs(
-      `${downloadsPath}/${downloadItem.name.split(" ").join("")}_${dateStamp()}`
-    );
+    await download.saveAs(downloadFile);
     return chalk.green("\nFinished: ") + downloadItem.name;
   
   } catch (err) {
